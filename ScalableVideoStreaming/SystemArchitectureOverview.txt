@@ -1,0 +1,49 @@
+System Architecture Overview
+1. Content Delivery Network (CDN):
+Purpose: To cache and deliver video content from edge locations closer to users.
+Benefits: Reduces latency and bandwidth costs.
+
+2. Load Balancers:
+Purpose: To distribute incoming traffic across multiple servers or cloud instances.
+Benefits: Ensures high availability and distributes load during peak times.
+
+3. Adaptive Bitrate Streaming:
+Purpose: To dynamically adjust video quality based on user’s internet connection.
+Benefits: Provides a smooth viewing experience across different device types and network conditions.
+
+4. Microservices Architecture:
+Purpose: To break down the application into smaller, independent services.
+Benefits: Facilitates scalability, easier updates, and maintenance.
+
+5. Distributed Database:
+Purpose: To store user data, video metadata, and other information.
+Benefits: Enhances performance and scalability.
+
+6. Caching Mechanisms:
+Purpose: To temporarily store frequently accessed data.
+Benefits: Reduces database load and improves response time.
+
+7. Auto-Scaling:
+Purpose: To automatically adjust the number of active servers based on the current load.
+Benefits: Cost-effective resource utilization and handling of traffic spikes.
+
+8. Quality of Service (QoS) Policies:
+Purpose: To prioritize traffic for different types of content and services.
+Benefits: Ensures that critical services remain available during high traffic.
+
+9. Redundancy and Failover:
+Purpose: To have backup systems in place for key components.
+Benefits: Maintains service continuity in case of system failures.
+
+10. Monitoring and Analytics:
+Purpose: To track system performance and user engagement.
+Benefits: Provides insights for further optimization and troubleshooting.
+
+11. Security:
+Purpose: To protect against unauthorized access and attacks.
+Benefits: Safeguards user data and maintains trust in the platform.
+
+Assumptions:
+The architecture is designed for a global audience with diverse internet connectivity.
+It assumes variable traffic loads, with potential spikes during new content releases or live events.
+The system prioritizes educational content delivery with minimal buffering and high-quality video.
